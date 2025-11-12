@@ -1,0 +1,12 @@
+label{
+    width: 100px;
+}
+.input-div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+input{
+    width: 150px;
+}

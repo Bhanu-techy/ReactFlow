@@ -1,8 +1,8 @@
 # Title
 
-    Write the title of the Assignment
+    Dynamic-Daigram-Flow
 
-1. Objective
+## 1. Objective
 
     The goal of this project is to develop a React application that creates an interactive diagram flow using the React Flow library. The diagram will be generated dynamically based on input metadata in JSON format, which defines nodes (such as shapes or elements in the diagram) and edges (connections between nodes). This allows users to visualize relationships interactively. The application should support adding, removing, and editing nodes and edges through user interactions, making it flexible for creating custom flows like process diagrams or mind maps. By the end, you'll have a responsive app that handles dynamic data, with tools for metadata input and state management, suitable for beginners learning React and diagram libraries.
     
@@ -243,5 +243,6 @@ const addNode = () => {
 
     - React Flow: For rendering interactive diagrams (install via npm).
     - Optional: React Context or Redux for state management; use built-in React hooks if keeping it simple.
-#   R e a c t F l o w  
+#   R e a c t F l o w 
+ 
  
