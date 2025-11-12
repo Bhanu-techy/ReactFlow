@@ -2,11 +2,13 @@ import NodeForm from '../NodeForm'
 import EdgeForm from '../EdgeForm'
 import './index.css'
 
-function Sidebar() {
+const Sidebar=props =>{
+  
+
   return (
     <div className='sidebar-cont'>
         <h2>Sidebar</h2>
-        <NodeForm/>
+        <NodeForm />
         <EdgeForm/>
     </div>
   )

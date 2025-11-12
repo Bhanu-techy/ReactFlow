@@ -236,6 +236,7 @@ const addNode = () => {
   };
   setNodes([...nodes, newNode]);
 };
+
 ```
 
 
@@ -243,6 +244,3 @@ const addNode = () => {
 
     - React Flow: For rendering interactive diagrams (install via npm).
     - Optional: React Context or Redux for state management; use built-in React hooks if keeping it simple.
-#   R e a c t F l o w 
- 
- 
