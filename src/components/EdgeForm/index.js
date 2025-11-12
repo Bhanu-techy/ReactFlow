@@ -23,16 +23,17 @@ function EdgeForm() {
       "id": `e${edges.length+1}`,
       "source": source,
       "target": target,
-      "type": "smoothstep"
-    }
+      "type": "smoothstep"}
+
     addEdge(edge)
+    setTarget("")
+    setSource("")
   }
 
   return (
     <form onSubmit={onClickAddEdge}>
           <h3>Edge Form</h3>
             <div className='input-div'>
-            
             <label htmlFor='source'>Source: </label>
             <input type='text' id='source' onChange={onChangeSource} value={source}/>
             </div>

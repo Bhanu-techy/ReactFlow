@@ -6,8 +6,8 @@ const NodeForm=() =>{
   
   const {nodes, addNode} = useContext(ReactFlowContext)
 
-    const [xposition, setX] = useState(0)
-    const [yposition, setY] = useState(0)
+    const [xposition, setX] = useState(null)
+    const [yposition, setY] = useState(null)
     const [label, setLabel] = useState("")
 
     const onChangeXposition = (e) =>{
@@ -31,9 +31,11 @@ const NodeForm=() =>{
     'data': { label }
     }
     addNode(newNode)
-    console.log(newNode)
+    
+    setX(null)
+    setY(null)
+    setLabel("")
    }
-
 
   return (
      <form onSubmit={onClickAddNode}>
@@ -51,6 +53,7 @@ const NodeForm=() =>{
             <input type='text' id='label' value={label} onChange={onChangeLabel}/>
             </div>
             <button type='submit'>Add</button>
+            
         </form>
   )
 }

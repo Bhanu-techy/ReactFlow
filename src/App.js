@@ -1,6 +1,5 @@
-import { useState, useEffect, useContext } from 'react';
+import {useContext } from 'react';
 import { ReactFlowContext } from './context/ReactFlowContext';
-import metadata from './metadata.json'
 import Diagram from './components/Daigram';
 import Sidebar from './components/Sidebar';
 
@@ -8,13 +7,13 @@ import './App.css';
 
 function App() {
 
-  const {nodes, edges, addNode} = useContext(ReactFlowContext)  
+  const {nodes, edges} = useContext(ReactFlowContext)  
 
   return (
     <div className="App">
       <nav>
         <h1>ReactFlow</h1>
-        <button onClick={addNode}>Add</button>
+        
       </nav>
       <hr className='hr-line'/>
       <div className='container'>
