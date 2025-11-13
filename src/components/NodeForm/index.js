@@ -32,8 +32,8 @@ const NodeForm=() =>{
     }
     addNode(newNode)
     
-    setX(null)
-    setY(null)
+    setX("")
+    setY("")
     setLabel("")
    }
 
