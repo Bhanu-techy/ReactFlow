@@ -17,10 +17,13 @@ export const ReactFlowProvider = ({ children }) => {
   },[nodes])
 
   const addNode = (newNode) => {
-  setNodes(prev => [...prev, newNode])}
+  setNodes(prev => [...prev, newNode])
+  localStorage.setItem("node", JSON.stringify(newNode))
+}
 
   const addEdge = (newEdge) => {
     setEdges(prev => [...prev, newEdge])
+    localStorage.setItem("edge", JSON.stringify(newEdge))
   }
 
   const delNode = id => {
@@ -37,5 +40,5 @@ export const ReactFlowProvider = ({ children }) => {
     >
       {children}
     </ReactFlowContext.Provider>
-  );
+  )
 };

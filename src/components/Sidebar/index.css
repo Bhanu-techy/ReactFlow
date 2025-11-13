@@ -8,16 +8,28 @@
 .del-form{
     height: 150px;
     border: 2px solid #bfbfbf;
-     width: 80%;
+     width: 90%;
      border-radius: 10px;
-     margin-top: 10px;
+     box-sizing: border-box;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     padding: 5px;
+     margin: 10ps;
 }.input{
-    width: 50px;
+    width: 30px;
     margin-right: 10px;
+}
+.del-input-div{
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.del-btn{
+    background-color: rgb(233, 95, 95);
+    width: 20%;
 }
 
 @media (max-width : 576px) {
@@ -27,6 +39,10 @@
         display: none;
     }.del-form{
         margin-top: 0px;
-        width: 150px;
+        width: 180px;
+    }.input{
+        width: 30px;
+    }.del-input-div{
+        width: 90%;
     }
 }

@@ -1,10 +1,10 @@
 ## Title
 
-    Dynamic-Daigram-Flow
+  ***Dynamic-Daigram-Flow***
 
 ## 1. Objective
 
-    The goal of this project is to develop a React application that creates an interactive diagram flow using the React Flow library. The diagram will be generated dynamically based on input metadata in JSON format, which defines nodes (such as shapes or elements in the diagram) and edges (connections between nodes). This allows users to visualize relationships interactively. The application should support adding, removing, and editing nodes and edges through user interactions, making it flexible for creating custom flows like process diagrams or mind maps. By the end, you'll have a responsive app that handles dynamic data, with tools for metadata input and state management, suitable for beginners learning React and diagram libraries.
+The goal of this project is to develop a React application that creates an interactive diagram flow using the React Flow library. The diagram will be generated dynamically based on input metadata in JSON format, which defines nodes (such as shapes or elements in the diagram) and edges (connections between nodes). This allows users to visualize relationships interactively. The application should support adding, removing, and editing nodes and edges through user interactions, making it flexible for creating custom flows like process diagrams or mind maps. By the end, you'll have a responsive app that handles dynamic data, with tools for metadata input and state management, suitable for beginners learning React and diagram libraries.
     
 
 ## Tech Stack
@@ -137,11 +137,11 @@ This structure separates concerns: Components for UI, src for logic, and root fo
 
 #### Must Have
 
-    React Flow: For rendering interactive diagrams.
+React Flow: For rendering interactive diagrams.
 
 #### Nice to Have
 
-    Optional: React Context or Redux for state management; use built-in React hooks if keeping it simple.
+Optional: React Context or Redux for state management; use built-in React hooks if keeping it simple.
 
 ### Guidelines to develop a project
 
@@ -155,7 +155,7 @@ This structure separates concerns: Components for UI, src for logic, and root fo
 
 ### Design files
 
-    Organize your project files logically for easy navigation. Here's a typical structure for this React app:
+Organize your project files logically for easy navigation. Here's a typical structure for this React app:
 
 - **dynamic-diagram-flow/** (root folder)
     - **node_modules/**: Auto-generated dependencies (don't edit).

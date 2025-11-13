@@ -8,7 +8,10 @@ label{
     margin: 10px;
 }
 input{
-    width: 90%;
+    width: 50%;
+    height: 20px;
+    border: 2px solid #bfbfbf;
+    border-radius: 5px;
 }
 button{
     text-align: center;
@@ -17,12 +20,12 @@ button{
 
 @media (max-width : 768px) {
     .input-div{
-        width: 150px;
+        width: 100px;
         margin: 5px;
     }label{
         width: 50px;
     }input{
-        width: 80%;
+        width: 40%;
     }
     
 }
